@@ -6,6 +6,8 @@ package MemoryInJava;
 public class OutOfMemoryError {
 
     public static void main(String[] args) {
+        //Object ref100 = new long[Integer.MAX_VALUE];
+
         Object ref = new long[Integer.MAX_VALUE / 100];
         Object ref2 = new long[Integer.MAX_VALUE / 100];
         Object ref3 = new long[Integer.MAX_VALUE / 100];
