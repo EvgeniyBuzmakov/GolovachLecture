@@ -1,11 +1,15 @@
 package MemoryInJava;
 
 /*
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at MemoryInJava.OutOfMemoryError.main(OutOfMemoryError.java:13)
+
 
  */
 public class OutOfMemoryError {
 
     public static void main(String[] args) {
+
         //Object ref100 = new long[Integer.MAX_VALUE];
 
         Object ref = new long[Integer.MAX_VALUE / 100];
@@ -20,5 +24,4 @@ public class OutOfMemoryError {
         Object ref10 = new long[Integer.MAX_VALUE / 10];
         Object ref11 = new long[Integer.MAX_VALUE / 10];
     }
-
 }
