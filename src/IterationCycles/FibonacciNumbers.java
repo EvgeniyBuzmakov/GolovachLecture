@@ -6,7 +6,7 @@ package IterationCycles;
 public class FibonacciNumbers {
 
     public static void main(String[] args) {
-        f(9);
+        f(5);
     }
 
     private static int f(int i) {

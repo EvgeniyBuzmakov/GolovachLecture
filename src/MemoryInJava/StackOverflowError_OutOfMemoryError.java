@@ -11,7 +11,7 @@ public class StackOverflowError_OutOfMemoryError {
 
     private static void f(Object arg) {
 
-        byte[] data = new byte[ 1024];
+        byte[] data = new byte [1024];
         Object[] newArg = {arg, data};
         f(newArg);
     }

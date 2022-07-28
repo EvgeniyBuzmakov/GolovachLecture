@@ -6,7 +6,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 
 
  */
-public class OutOfMemoryError {
+public class OutOfMemoryErrorExample1 {
 
     public static void main(String[] args) {
 
