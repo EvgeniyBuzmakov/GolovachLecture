@@ -1,7 +1,9 @@
 package MemoryInJava;
 
 /*
-
+специальным флагом:
+-verbose:gc
+вызываем GC в консоль
  */
 public class OutOfMemoryErrorExample2 {
 
